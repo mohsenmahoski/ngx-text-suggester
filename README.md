@@ -23,14 +23,14 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 <ngx-text-suggester
 	[suggests]="List"
 	(textChange)="getUserInput($event)" //emite textarea value on keypress
-	[mainColors]="mainColors" // input main colors
-	[menuColors]="menuColors" // input menu colors
+	[mainColors]="mainColors"
+	[menuColors]="menuColors"
 	[lang]="sql" // highlight-js language
 	[sortList]="true"
 ></ngx-text-suggester>
 ```
 
-## inputs options
+## inputs
 
 ```
 suggests: {
